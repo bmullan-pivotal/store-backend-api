@@ -96,19 +96,18 @@ accelerator:
     dependsOn:
       name: addDataEntity
  - name: appFolder
-    label: Application Folder
-    description: Select a folder for the application
-    required: true
-    defaultValue: folder1
-    inputType: select
-    choices:
-      - value: folder1
-        text: Folder 1
-      - value: folder2
-        text: Folder 2
-      - value: folder3
-        text: Folder 3
-      
+   label: Application Folder
+   description: Select a folder for the application
+   required: true
+   defaultValue: folder1
+   inputType: select
+   choices:
+   - value: folder1
+     text: Folder 1
+   - value: folder2
+     text: Folder 2
+   - value: folder3
+     text: Folder 3 
       
 engine:
   merge:
