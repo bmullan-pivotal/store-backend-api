@@ -111,6 +111,8 @@ accelerator:
       
 engine:
   merge:
+    - includes: ["folders/folder1/**"]
+      condition: "#appFolder == 'folder1'"
     #generic transformation
     - includes: ["**"]
       excludes: [ "config/**", "src/main/java/io/storebackend/api/data/*" ]
