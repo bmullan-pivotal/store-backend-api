@@ -120,7 +120,7 @@ engine:
 
     #generic transformation
     - includes: ["**"]
-      excludes: [ "config/**", "src/main/java/io/storebackend/api/data/*" ]
+      excludes: [ "config/**", "src/main/java/io/storebackend/api/data/*","folders/**" ]
       chain:
         - type: ReplaceText
           substitutions:
