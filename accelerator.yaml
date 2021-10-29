@@ -113,6 +113,11 @@ engine:
   merge:
     - includes: ["folders/folder1/**"]
       condition: "#appFolder == 'folder1'"
+    - includes: ["folders/folder2/**"]
+      condition: "#appFolder == 'folder2'"
+    - includes: ["folders/folder3/**"]
+      condition: "#appFolder == 'folder3'"
+
     #generic transformation
     - includes: ["**"]
       excludes: [ "config/**", "src/main/java/io/storebackend/api/data/*" ]
