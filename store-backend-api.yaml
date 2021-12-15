@@ -1,0 +1,10 @@
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Accelerator
+metadata:
+  name: api-backend-accelerator
+  namespace: default
+spec:
+  git:
+    ref:
+      branch: main
+    url: https://github.com/bmullan-pivotal/store-backend-api
